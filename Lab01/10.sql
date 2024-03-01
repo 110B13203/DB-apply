@@ -1,0 +1,1 @@
+ALTER TABLE shohin ADD COLUMN shohin_info VARCHAR(100);
