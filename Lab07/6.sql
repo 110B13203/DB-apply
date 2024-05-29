@@ -1,4 +1,3 @@
--- DDL：建立資料表
 CREATE TABLE StoreShohin
 (store_id  CHAR(4)       NOT NULL,
  store_name  VARCHAR(200) NOT NULL,
@@ -6,7 +5,6 @@ CREATE TABLE StoreShohin
  s_amount     INTEGER       NOT NULL,
  PRIMARY KEY (store_id, shohin_id));
 
--- DML：存入資料
 START TRANSACTION;
 
 INSERT INTO StoreShohin (store_id, store_name, shohin_id, s_amount) VALUES ('000A',	'東京',		'0001',	30);
